@@ -1,0 +1,9 @@
+mediapipe==1.1.0
+opencv-python==5.0.0.93
+pyobjc-framework-ApplicationServices==12.2.2
+pyobjc-framework-Cocoa==12.2.2
+pyobjc-framework-Quartz==12.2.2
+pytest==9.1.1
+PyYAML==6.0.3
+rumps==0.4.0
+py2app==0.28.10
