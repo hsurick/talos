@@ -1,0 +1,11 @@
+.venv/
+models/
+__pycache__/
+.pytest_cache/
+*.jsonl.gz
+!tests/data/*.jsonl.gz
+debug_frames/
+build/
+dist/
+.vibe-wise/
+build.log

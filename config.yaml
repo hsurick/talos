@@ -1,0 +1,48 @@
+# Which gesture runs which actions. Saving this file applies it immediately (hot reload).
+# Also written by the Talos settings window (menu-bar icon > Settings), which drops other comments.
+bindings:
+  walk_away:
+  - lock_screen
+  - pause_media
+  hand_swipe:
+  - lock_screen
+  - pause_media
+  lens_wipe:
+  - lock_screen
+  - pause_media
+  burst:
+  - open_overview
+  unburst:
+  - close_overview
+  swipe_up:
+  - zoom_window
+  point:
+  - select_window
+  flick:
+  - select_window
+  ear_tap:
+  - play_pause
+  ear_up:
+  - next_track
+  ear_down:
+  - previous_track
+  ear_hold:
+  - hold_key: fn
+  twist_1:
+  - focus_app: Safari
+  twist_2:
+  - focus_app: Mail
+  twist_3:
+  - focus_app: Notes
+  twist_4:
+  - focus_app: Music
+  swipe_left:
+  - snap_window: left
+  swipe_right:
+  - snap_window: right
+  brush_off:
+  - dismiss_notification
+settings:
+  walk_away_seconds: 15
+  ear_hold_delay: 0
+  select_with: point
